@@ -1,0 +1,53 @@
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local data, caches, outputs (never publish)
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+cache/
+data/
+bars/
+logs/
+*.log
+output/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Temporary scan helpers
+_scan_secrets.py
