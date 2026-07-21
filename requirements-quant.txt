@@ -1,0 +1,35 @@
+# Core numerical stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+joblib
+requests
+
+# Gradient boosting — fusion entry model (LightGBM only)
+lightgbm
+
+# Time-series / econometrics / volatility
+statsmodels
+arch
+
+# Backtesting and portfolio research
+vectorbt
+backtrader
+empyrical
+pyfolio-reloaded
+quantstats
+
+# Exchange/data connectors
+ccxt
+yfinance
+python-binance
+
+# Optimization and experiment tracking
+optuna
+mlflow
+
+# Technical indicators
+ta
+pandas-ta
